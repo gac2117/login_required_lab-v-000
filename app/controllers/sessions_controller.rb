@@ -8,6 +8,7 @@ class SessionsController < ApplicationController
     else
       session[:username] = params[:username]
       redirect '/'
+    end
   end
 
   def destroy
